@@ -1,9 +1,8 @@
-
 import React, { useState, useCallback } from 'react';
-import { generateArduinoProject } from './services/geminiService';
-import type { ArduinoProject } from './types';
-import { ProjectOutput } from './components/ProjectOutput';
-import { LogoIcon, SparklesIcon, AlertIcon } from './components/Icons';
+import { generateArduinoProject } from './services/geminiService.ts';
+import type { ArduinoProject } from './types.ts';
+import { ProjectOutput } from './components/ProjectOutput.tsx';
+import { LogoIcon, SparklesIcon, AlertIcon } from './components/Icons.tsx';
 
 const App: React.FC = () => {
     const [prompt, setPrompt] = useState<string>('');
