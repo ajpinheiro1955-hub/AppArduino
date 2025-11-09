@@ -1,0 +1,5 @@
+
+{
+  "name": "Arduino Project Generator",
+  "description": "An AI-powered application to generate complete Arduino projects, including code, component lists, and circuit diagrams, based on a user's description."
+}
